@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080/employees";
+const BASE_URL = "https://employee-management-backend-4q6c.onrender.com/employees";
 
 class EmployeeService {
 
