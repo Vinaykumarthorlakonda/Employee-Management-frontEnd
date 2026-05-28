@@ -22,7 +22,7 @@ function Login({ setIsLoggedIn, setShowSignup }) {
 
         try {
             const res = await axios.post(
-                "https://employee-management-backend-3byo.onrender.com/auth/login",
+                "https://employee-management-backend-1x0d.onrender.com/auth/login",
                 user
             );
 
