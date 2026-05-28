@@ -26,7 +26,7 @@ function Signup({ setShowSignup }) {
 
         try {
             const res = await axios.post(
-                "http://localhost:8080/auth/register",
+                "https://employee-management-backend-8uip.onrender.com/auth/register/auth/register",
                 user
             );
 
